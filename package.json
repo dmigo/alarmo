@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dmigo/alarmo/issues"
   },
-  "homepage": "https://github.com/dmigo/alarmo#readme"
+  "homepage": "https://github.com/dmigo/alarmo#readme",
+  "dependencies": {
+    "telegram-bot-now": "^1.14.8"
+  }
 }
