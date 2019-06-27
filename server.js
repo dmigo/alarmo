@@ -17,7 +17,7 @@ var self = {
 
 	// optional 
 	version: () => {
-		return 1;
+		return '0.0.1';
 	},
 
 	// optional
