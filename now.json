@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [{ "src": "server.js", "use": "@now/node" }],
+  "regions": ["gru"],
+  "env": {
+    "TELEGRAM_BOT_KEY": "@alarmo-telegram-token",
+    "TELEGRAM_BOT_URL": "@alarmo-telegram-url",
+    "DB_HOST": "@alarmo-db-host",
+    "DB_BASE": "@alarmo-db-base",
+    "DB_USER": "@alarmo-db-user",
+    "DB_PASS": "@alarmo-db-pass"
+  }
+}
